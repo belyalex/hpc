@@ -1,0 +1,13 @@
+Release Ubuntu VMWare 
+Matrix size	Shtrassen mul	Simple mul	Equals
+512	0.0507809	0.061742	true
+1024	0.344576	0.762275	true
+2048	2.38467	6.48887	true
+4096	17.0888	51.9769	true
+
+Debug Ubuntu VMWare
+Matrix size	Shtrassen mul	Simple mul	Equals
+512	3.41923	4.43226	true
+1024	23.2704	35.664	true
+2048	163.911	283.438	true
+4096	1151.74	2260.92	true
