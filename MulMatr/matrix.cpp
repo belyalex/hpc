@@ -95,7 +95,7 @@ matrix matrix::operator-(const matrix &m) const {
 matrix matrix::operator*(const matrix &m) const {
     assert(n == m.n);
     matrix res(n);
-    bzero(res.buf, n * n * sizeof(double));
+    memset(res.buf, 0, n * n * sizeof(double));
 
     for (size_t k = 0; k < n; k++) {
         for (size_t i = 0; i < n; i++) {

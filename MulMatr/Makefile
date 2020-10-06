@@ -1,5 +1,5 @@
 CC = g++
-ccflags = -c -std=c++17 -O3 -DNDEBUG
+ccflags = -c -std=c++17 -g
 
 all: MulMatr
 

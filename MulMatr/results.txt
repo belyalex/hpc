@@ -11,3 +11,17 @@ Matrix size	Shtrassen mul	Simple mul	Equals
 1024	23.2704	35.664	true
 2048	163.911	283.438	true
 4096	1151.74	2260.92	true
+
+Release Windows MinGW  
+Matrix_size     Shtrassen_mul   Simple_mul      Equals
+512     0.0835737       0.0606415       true
+1024    0.433839        0.649064        true
+2048    2.96188 5.77476 true
+4096    21.331  47.6413 true
+
+Debug Windows MinGW
+Matrix size     Shtrassen mul   Simple mul      Equals
+512     2.59147 3.55271 true
+1024    18.6172 27.9752 true
+2048    131.962 225.685 true
+4096    924.154 1813.26 true
